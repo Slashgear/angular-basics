@@ -1,163 +1,171 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<meta name="author" content="Antoine Caron">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="Antoine Caron">
 
-		<title>Angular4 basics</title>
+    <title>Angular4 basics</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/white.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-		<link rel="stylesheet" href="css/index.css">
-		<link rel="icon" type="image/ico" href="img/favicon.ico" />
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/ico" href="img/favicon.ico"/>
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section data-background-image="img/FOND-Présentation.jpg" class="title">
-					<aside>	<h1>Angular4 Basics</h1>
-						<h3><span class="by">By</span> Antoine <span class="last">Caron</span></h3>
-					</aside>
-				</section>
-				<section data-background-image="img/FOND-Slide.jpg" class="znk">
-					<h1>Zenika</h1>
-					<ul>
-						<li>Consutling</li>
-						<li>Realization</li>
-						<li>Training</li>
-						<li>Innovation</li>
-					</ul>
-				</section>
-				<section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>History of web development</h1>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<img src="img/shield-large.png" height="400px"/>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>JS environment</h1>
-						 <p>NodeJS</p>
-						 <p>Npm</p>
-						 <p>AngularJS / 2 / 4</p>
-						 <p>EmberJS</p>
-						 <p>React</p>
-						 <p>Electron</p>
-						 <p> Javascript for User Interface</p>
-					</section>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
 
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>What is Angular 4 ?</h1>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg"  data-markdown="slides/component.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg">
-						<img src="img/archi.png"/>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>Component Types</h1>
-						 <p>Directives</p>
-						 <p>Pipes</p>
-						 <p>Component</p>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>TypeScript</h1>
-						 <p>Microsoft concept</p>
-						 <p>Angular4 design for TypeScript</p>
-						 <p>Types</p>
-						 <p>Generics</p>
-						 <p>Classes, Interfaces, Decorator</p>
-						 <p>Javascript ES2015 Overlay</p>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h3>Reactive Programming</h3>
-						<a href="http://reactivex.io" target="_blank">http://reactivex.io</a>
-					</section>
-				</section>
-				<section data-background-image="img/FOND-Slide.jpg" class="znk">
-					<img src="img/doit.gif"/>
-				</section>
-				<section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/1.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/2.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/3.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/4.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/5.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/6.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg">
-						<h1>Let's add some GoT</h1>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/7.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/8.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/9.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/10.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/11.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/12.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg">
-						<h3>Tests</h3>
-						Look at app.component.spec.js and e2e directory
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg">
-						<h3>Have fun with API and Angular</h3>
-					</section>
-				</section>
-				<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>To Continue</h1>
-						<ul>
-							<li>Form Api</li>
-							<li><a href="http://angular.io" target="_blank">Angular Doc</a></li>
-							<li>Angular universal</li>
-							<li>Last year Project</li>
-							<li>Awesome book by <a href="https://books.ninja-squad.com/angular" target="_blank">Ninja Squad</a></li>
-						</ul>
-				</section>
-				<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>Quizz</h1>
-				</section>
-			</div>
-		</div>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section class="title">
+            <aside><h1>Angular4 Basics</h1>
+                <h3><span class="by">By</span> Antoine <span class="last">Caron</span></h3>
+            </aside>
+        </section>
+        <section>
+            <h1>Aya 文</h1>
+            <iframe src="https://aya-experience.com/" width="1000" height="500"></iframe>
+        </section>
+        <section>
+            <section>
+                <h1>History of web development</h1>
+            </section>
+            <section>
+                <img src="img/shield-large.png" height="400px"/>
+            </section>
+            <section>
+                <h1>JS environment</h1>
+                <p>NodeJS</p>
+                <p>Npm</p>
+                <p>AngularJS / 2 / 4</p>
+                <p>EmberJS</p>
+                <p>React</p>
+                <p>Electron</p>
+                <p> Javascript for User Interface</p>
+            </section>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+            <section>
+                <h1>What is Angular 4 ?</h1>
+            </section>
+            <section data-markdown="slides/component.md">
+            </section>
+            <section>
+                <img src="img/archi.png"/>
+            </section>
+            <section>
+                <h1>Component Types</h1>
+                <p>Directives</p>
+                <p>Pipes</p>
+                <p>Component</p>
+            </section>
+            <section>
+                <h1>TypeScript</h1>
+                <p>Microsoft concept</p>
+                <p>Angular4 design for TypeScript</p>
+                <p>Types</p>
+                <p>Generics</p>
+                <p>Classes, Interfaces, Decorator</p>
+                <p>Javascript ES2015 Overlay</p>
+            </section>
+            <section>
+                <h3>Reactive Programming</h3>
+                <a href="http://reactivex.io" target="_blank">http://reactivex.io</a>
+            </section>
+        </section>
+        <section>
+            <img src="img/doit.gif"/>
+        </section>
+        <section>
+            <section data-markdown="slides/hello-world/1.md">
+            </section>
+            <section data-markdown="slides/hello-world/2.md">
+            </section>
+            <section data-markdown="slides/hello-world/3.md">
+            </section>
+            <section data-markdown="slides/hello-world/4.md">
+            </section>
+            <section data-markdown="slides/hello-world/5.md">
+            </section>
+            <section data-markdown="slides/hello-world/6.md">
+            </section>
+            <section>
+                <h1>Let's add some GoT</h1>
+            </section>
+            <section data-markdown="slides/hello-world/7.md">
+            </section>
+            <section data-markdown="slides/hello-world/8.md">
+            </section>
+            <section data-markdown="slides/hello-world/9.md">
+            </section>
+            <section data-markdown="slides/hello-world/10.md">
+            </section>
+            <section data-markdown="slides/hello-world/11.md">
+            </section>
+            <section data-markdown="slides/hello-world/12.md">
+            </section>
+            <section>
+                <h3>Tests</h3>
+                Look at app.component.spec.js and e2e directory
+            </section>
+            <section>
+                <h3>Have fun with API and Angular</h3>
+            </section>
+        </section>
+        <section>
+            <h1>To Continue</h1>
+            <ul>
+                <li>Form Api</li>
+                <li><a href="http://angular.io" target="_blank">Angular Doc</a></li>
+                <li>Angular universal</li>
+                <li>Last year Project</li>
+                <li>Awesome book by <a href="https://books.ninja-squad.com/angular" target="_blank">Ninja
+                    Squad</a></li>
+            </ul>
+        </section>
+        <section>
+            <h1>Quizz</h1>
+        </section>
+    </div>
+</div>
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+</body>
 </html>
