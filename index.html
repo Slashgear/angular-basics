@@ -41,7 +41,7 @@
 <div class="reveal">
     <div class="slides">
         <section class="title">
-            <aside><h1>Angular4 Basics</h1>
+            <aside><h1>Angular Basics</h1>
                 <h3><span class="by">By</span> Antoine <span class="last">Caron</span></h3>
             </aside>
         </section>
@@ -60,17 +60,19 @@
                 <h1>JS environment</h1>
                 <p>NodeJS</p>
                 <p>Npm</p>
-                <p>AngularJS / 2 / 4</p>
+                <p>AngularJS / 2 / 4 / 5 / ..</p>
                 <p>EmberJS</p>
                 <p>React</p>
+                <p>VueJS</p>
                 <p>Electron</p>
                 <p> Javascript for User Interface</p>
             </section>
 
             <section>
-                <h1>What is Angular 4 ?</h1>
+                <h1>What is Angular ?</h1>
             </section>
-            <section data-markdown="slides/component.md">
+            <section data-markdown>
+                ### Des composants
             </section>
             <section>
                 <img src="img/archi.png"/>
@@ -84,7 +86,7 @@
             <section>
                 <h1>TypeScript</h1>
                 <p>Microsoft concept</p>
-                <p>Angular4 design for TypeScript</p>
+                <p>Angular design for TypeScript</p>
                 <p>Types</p>
                 <p>Generics</p>
                 <p>Classes, Interfaces, Decorator</p>
@@ -98,40 +100,96 @@
         <section>
             <img src="img/doit.gif"/>
         </section>
+        <section data-markdown>
+            # Setup
+
+            ```bash
+            git clone https://github.com/Slashgear/angular-workshop
+
+            cd angular-workshop
+
+            npm install
+
+            npm run ng serve
+            ```
+        </section>
         <section>
-            <section data-markdown="slides/hello-world/1.md">
+            <section data-markdown>
+                ### Interpolation
+
+                Show your name in page
             </section>
-            <section data-markdown="slides/hello-world/2.md">
+            <section data-markdown>
+                ### Loop
+
+                Create a loop of Heroes
             </section>
-            <section data-markdown="slides/hello-world/3.md">
+            <section data-markdown data-separator-notes="^Note:">
+                ### Input
+
+                Add input for changing project Name :
+
+                Tips -> Banana Box [()]
+                [property] (event)
+
+                Note:
+                import { FormsModule } from '@angular/forms';
             </section>
-            <section data-markdown="slides/hello-world/4.md">
+            <section data-markdown>
+                ### Event Binding
+
+                Add button and listen to click event
             </section>
-            <section data-markdown="slides/hello-world/5.md">
+            <section data-markdown>
+                ### Condition
+
+                Show button with condition
             </section>
-            <section data-markdown="slides/hello-world/6.md">
+            <section data-markdown>
+                ### Scoped CSS
+
+                Add some css to component
+            </section>
+        </section>
+        <section>
+            <section>
+                <h1>Let's add some Pokemon</h1>
+                <span>
+                    git checkout pokedex
+                </span>
+            </section>
+            <section data-markdown>
+                ### App Context
+            </section>
+            <section data-markdown>
+                ### First custom component
+            </section>
+            <section data-markdown>
+                ### Pokemon list
+                ### Search component
+            </section>
+            <section data-markdown>
+                ### Pokemon component
+            </section>
+            <section data-markdown>
+                ### Load Pokemons from component
+
+                [Gist](https://gist.github.com/Slashgear/81597dba72819fa58b3fa6b62188f9d2)
+            </section>
+            <section data-markdown>
+                ### Sync Service
+            </section>
+            <section data-markdown>
+                ### Simple input form
+            </section>
+            <section data-markdown>
+                ### Component Testing
             </section>
             <section>
-                <h1>Let's add some GoT</h1>
-            </section>
-            <section data-markdown="slides/hello-world/7.md">
-            </section>
-            <section data-markdown="slides/hello-world/8.md">
-            </section>
-            <section data-markdown="slides/hello-world/9.md">
-            </section>
-            <section data-markdown="slides/hello-world/10.md">
-            </section>
-            <section data-markdown="slides/hello-world/11.md">
-            </section>
-            <section data-markdown="slides/hello-world/12.md">
-            </section>
-            <section>
-                <h3>Tests</h3>
-                Look at app.component.spec.js and e2e directory
-            </section>
-            <section>
-                <h3>Have fun with API and Angular</h3>
+                <h3>Async Service</h3>
+                <a href="https://gist.githubusercontent.com/Slashgear/386e7603eebf32fe51a7d5a5f3836d22/raw/0b595285127b7690301b9546d2e75bcda944a805/pokemons.json">
+                    Gist
+                </a>
             </section>
         </section>
         <section>
@@ -144,9 +202,6 @@
                 <li>Awesome book by <a href="https://books.ninja-squad.com/angular" target="_blank">Ninja
                     Squad</a></li>
             </ul>
-        </section>
-        <section>
-            <h1>Quizz</h1>
         </section>
     </div>
 </div>
