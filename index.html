@@ -1,169 +1,231 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<meta name="author" content="Antoine Caron">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="Antoine Caron">
 
-		<title>Angular2 basics</title>
+    <title>Angular4 basics</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/white.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-		<link rel="stylesheet" href="css/index.css">
-		<link rel="icon" type="image/ico" href="img/favicon.ico" />
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/ico" href="img/favicon.ico"/>
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section data-background-image="img/FOND-Présentation.jpg" class="title">
-					<aside>	<h1>Angular2 Basics</h1>
-						<h3><span class="by">By</span> Antoine <span class="last">Caron</span></h3>
-					</aside>
-				</section>
-				<section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>Antoine Caron</h1>
-						<h4>Polytech Lyon</h4>
-						<h4>Full Stack Developer</h4>
-						<h4><a href="http://slashgear.github.io" target="_blank">http://slashgear.github.io</a></h4>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>Zenika</h1>
-						<ul>
-							<li>Consutling</li>
-							<li>Realization</li>
-							<li>Training</li>
-							<li>Innovation</li>
-						</ul>
-					</section>
-				</section>
-				<section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<img src="img/shield-large.png" height="400px"/>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>JS environment</h1>
-						 <p>NodeJS</p>
-						 <p>Npm</p>
-						 <p>AngularJS</p>
-						 <p>EmberJS</p>
-						 <p>React</p>
-						 <p>Electron</p>
-						 <p> Javascript for User Interface</p>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>What is Angular 2 ?</h1>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg"  data-markdown="slides/component.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg">
-						<img src="img/archi.png"/>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>Component Types</h1>
-						 <p>Directives</p>
-						 <p>Pipes</p>
-						 <p>Component</p>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>TypeScript</h1>
-						 <p>Microsoft concept</p>
-						 <p>Angular2 design for TypeScript</p>
-						 <p>Types</p>
-						 <p>Generics</p>
-						 <p>Classes, Interfaces, Decorator</p>
-						 <p>Javascript ES2015 Overlay</p>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h3>Reactive Programming</h3>
-						<a href="http://reactivex.io" target="_blank">http://reactivex.io</a>
-					</section>
-				</section>
-				<section data-background-image="img/FOND-Slide.jpg" class="znk">
-					<img src="img/doit.gif"/>
-				</section>
-				<section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>Hello world</h1>
-					</section>
-				<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/1.md">
-				</section>
-				<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/2.md">
-				</section>
-				<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/3.md">
-				</section>
-				<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/4.md">
-				</section>
-				<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/hello-world/5.md">
-				</section>
-				</section>
-				<section>
-					<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>Starter Project</h1>
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/starter-workshop/intro.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/starter-workshop/1.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/starter-workshop/2.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/starter-workshop/3.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/starter-workshop/4.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/starter-workshop/5.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/starter-workshop/6.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/starter-workshop/7.md">
-					</section>
-					<section data-background-image="img/FOND-Slide.jpg" data-markdown="slides/starter-workshop/8.md">
-					</section>
-				</section>
-				<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>To Continue</h1>
-						<ul>
-							<li>Form Api</li>
-							<li><a href="http://angular.io" target="_blank">Angular Doc</a></li>
-							<li><a href="http://fountainjs.io/">FountainJS generator</a></li>
-							<li>Angular universal</li>
-							<li>Use it for your projects</li>
-						</ul>
-				</section>
-				<section data-background-image="img/FOND-Slide.jpg" class="znk">
-						<h1>Quizz</h1>
-				</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Open Sans', sans-serif;
+        }
+        body {
+            background-image: url('img/aya-logo.png');
+            background-repeat: no-repeat;
+            background-position: top right;
+        }
+    </style>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section class="title">
+            <aside><h1>Angular Basics</h1>
+                <h3><span class="by">By</span> Antoine <span class="last">Caron</span></h3>
+            </aside>
+        </section>
+        <section>
+            <h1>Aya 文</h1>
+            <iframe src="https://aya-experience.com/" width="1000" height="500"></iframe>
+        </section>
+        <section>
+            <section>
+                <h1>History of web development</h1>
+            </section>
+            <section>
+                <img src="img/shield-large.png" height="400px"/>
+            </section>
+            <section>
+                <h1>JS environment</h1>
+                <p>NodeJS</p>
+                <p>Npm</p>
+                <p>AngularJS / 2 / 4 / 5 / ..</p>
+                <p>EmberJS</p>
+                <p>React</p>
+                <p>VueJS</p>
+                <p>Electron</p>
+                <p> Javascript for User Interface</p>
+            </section>
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
+            <section>
+                <h1>What is Angular ?</h1>
+            </section>
+            <section data-markdown>
+                ### Des composants
+            </section>
+            <section>
+                <img src="img/archi.png"/>
+            </section>
+            <section>
+                <h1>Component Types</h1>
+                <p>Directives</p>
+                <p>Pipes</p>
+                <p>Component</p>
+            </section>
+            <section>
+                <h1>TypeScript</h1>
+                <p>Microsoft concept</p>
+                <p>Angular design for TypeScript</p>
+                <p>Types</p>
+                <p>Generics</p>
+                <p>Classes, Interfaces, Decorator</p>
+                <p>Javascript ES2015 Overlay</p>
+            </section>
+            <section>
+                <h3>Reactive Programming</h3>
+                <a href="http://reactivex.io" target="_blank">http://reactivex.io</a>
+            </section>
+        </section>
+        <section>
+            <img src="img/doit.gif"/>
+        </section>
+        <section data-markdown>
+            # Setup
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+            ```bash
+            git clone https://github.com/Slashgear/angular-workshop
+
+            cd angular-workshop
+
+            npm install
+
+            npm run ng serve
+            ```
+        </section>
+        <section>
+            <section data-markdown>
+                ### Interpolation
+
+                Show your name in page
+            </section>
+            <section data-markdown>
+                ### Loop
+
+                Create a loop of Heroes
+            </section>
+            <section data-markdown data-separator-notes="^Note:">
+                ### Input
+
+                Add input for changing project Name :
+
+                Tips -> Banana Box [()]
+                [property] (event)
+
+                Note:
+                import { FormsModule } from '@angular/forms';
+            </section>
+            <section data-markdown>
+                ### Event Binding
+
+                Add button and listen to click event
+            </section>
+            <section data-markdown>
+                ### Condition
+
+                Show button with condition
+            </section>
+            <section data-markdown>
+                ### Scoped CSS
+
+                Add some css to component
+            </section>
+        </section>
+        <section>
+            <section>
+                <h1>Let's add some Pokemon</h1>
+                <span>
+                    git checkout pokedex
+                </span>
+            </section>
+            <section data-markdown>
+                ### App Context
+            </section>
+            <section data-markdown>
+                ### First custom component
+            </section>
+            <section data-markdown>
+                ### Pokemon list
+                ### Search component
+            </section>
+            <section data-markdown>
+                ### Pokemon component
+            </section>
+            <section data-markdown>
+                ### Load Pokemons from component
+
+                [Gist](https://gist.github.com/Slashgear/81597dba72819fa58b3fa6b62188f9d2)
+            </section>
+            <section data-markdown>
+                ### Sync Service
+            </section>
+            <section data-markdown>
+                ### Simple input form
+            </section>
+            <section data-markdown>
+                ### Component Testing
+            </section>
+            <section>
+                <h3>Async Service</h3>
+                <a href="https://gist.githubusercontent.com/Slashgear/386e7603eebf32fe51a7d5a5f3836d22/raw/0b595285127b7690301b9546d2e75bcda944a805/pokemons.json">
+                    Gist
+                </a>
+            </section>
+        </section>
+        <section>
+            <h1>To Continue</h1>
+            <ul>
+                <li>Form Api</li>
+                <li><a href="http://angular.io" target="_blank">Angular Doc</a></li>
+                <li>Angular universal</li>
+                <li>Last year Project</li>
+                <li>Awesome book by <a href="https://books.ninja-squad.com/angular" target="_blank">Ninja
+                    Squad</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+</body>
 </html>
